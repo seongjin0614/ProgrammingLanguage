@@ -14,3 +14,6 @@ const dog: Dog = {
   color: "",
   isBark: true,
 }
+
+// 인터페이스 다중 확장
+// interface DogCat extends Dog, Cat {}
