@@ -17,3 +17,15 @@ function introduce(name='이정환', tall?:number) {
 }
 // -> 다른 타입의 매개변수 불가
 // -> ? 활용하여 선택적 매개변수, 선택적 매개변수는 가장 뒤에 위치
+
+
+// Rest 파라미터
+function getSum(...rest: number[]) {
+  let sum = 0;
+  rest.forEach((it)=> (sum += it));
+
+  return sum;
+}
+
+getSum(1,2,3)
+getSum(1,2,3,4,5)
