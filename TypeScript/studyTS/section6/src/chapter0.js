@@ -22,7 +22,6 @@ class Student {
   study() {
     console.log("열심히 공부")
   }
-
   introduce() {
     console.log("안녕!")
   }
@@ -31,3 +30,4 @@ class Student {
 // 클래스를 이용해서 만든 객체 -> 인스턴스
 // Student 인스턴스
 let studentB = new Student("이정환", "A+", 27)
+
