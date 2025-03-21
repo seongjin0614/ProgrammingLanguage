@@ -12,4 +12,6 @@ type Cat = {
 
 type Animal = Dog | Cat;
 
-
+function isDog(animal: Animal): animal is Dog {
+  return (animal as Dog).isBark !== undefined;
+}
