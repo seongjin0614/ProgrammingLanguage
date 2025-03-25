@@ -30,10 +30,10 @@ user = {
 
 
 let config: {
-  readonly apikey: string;
+  readonly apiKey: string;
 } = {
-  apikey: "My API key",
+  apiKey: "My API key",
 }
-// config.apikey = "hacked"
+// config.apiKey = "hacked"
 // readonly를 통해 읽기 전용으로 만들수 있음(변경 불가)
-// 읽기 전용 속성이므로 'apikey'에 할당할 수 없음
+// 읽기 전용 속성이므로 'apiKey'에 할당할 수 없음
