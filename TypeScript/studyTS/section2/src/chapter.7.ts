@@ -10,6 +10,14 @@ function func2(): void {
   console.log("hello");
 }
 
+let a: void;
+// a = 1;
+// a = "hello";
+// a = {};
+// a = undefined
+// -> void 타입은 undefined만 할당 가능
+
+
 
 // never
 // -> 존재하지 않는
@@ -22,4 +30,11 @@ function func3(): never {
 function func4(): never {
   throw new Error();
 }
-// 그 어떠한 값도 저장할수 없음
+
+let c: never;
+// c = "1"
+// c = 1
+// c = null
+// c = true
+// c = undefined
+// -> 그 어떠한 값도 저장할수 없음
