@@ -16,4 +16,25 @@ a = b;
 
 // 기준 2. 매개변수가 호환되는가
 // 2-1. 매개변수의 개수가 같을 때
+type C = (value: number) => void;
+type D = (value: 10) => void;
 
+let c: C = (value) => {};
+let d: D = (value) => {};
+
+// c = d;
+d = c;
+
+type Animal = {
+  name: string;
+}
+
+type Dog = {
+  name: string;
+  color: string;
+}
+
+
+
+
+// 2-2. 매개변수의 개수가 다를 때
