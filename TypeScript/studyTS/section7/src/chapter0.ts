@@ -2,6 +2,8 @@
 // 일반적인 포괄적인 함수
 // 모든 타입에 두루두루 사용할 수 있는 함수
 
+
+
 function func<T>(value: T): T {
   return value;
 }
